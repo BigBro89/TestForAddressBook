@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35dda7a0-411e-4a43-85b1-f0d4b850c1bc" name="Default" comment="Added Delete Classes">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/CreateContactsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/CreateContactsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/CreateGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/CreateGroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteContactsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteContactsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteGroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/GroupModificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings.gradle" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,10 +59,10 @@
         </entry>
       </file>
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/ApplicationManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
@@ -70,20 +94,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="GroupModificationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupModificationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/GroupModificationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,19 +112,19 @@
         </entry>
       </file>
       <file leaf-file-name="CreateContactsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/CreateContactsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/CreateContactsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateGroupTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/CreateGroupTest.java">
+      <file leaf-file-name="CreateGroupTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/CreateGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,7 +133,7 @@
         </entry>
       </file>
       <file leaf-file-name="DeleteGroupTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteGroupTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -122,7 +142,7 @@
         </entry>
       </file>
       <file leaf-file-name="DeleteContactsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteContactsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteContactsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -142,6 +162,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>init</find>
+      <find>stop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -444,6 +465,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupModificationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/addressbook/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -549,7 +572,7 @@
       <module name="addressbook-selenium-test_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.addressbook.*" />
+          <option name="PATTERN" value="com.telran.addressbook.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -557,7 +580,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.CreateGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.CreateGroupTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -578,7 +601,7 @@
       <module name="addressbook-selenium-test_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.addressbook.*" />
+          <option name="PATTERN" value="com.telran.addressbook.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -586,7 +609,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.CreateGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.CreateGroupTest" />
       <option name="METHOD_NAME" value="testCreateGroupLongName" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -607,7 +630,7 @@
       <module name="addressbook-selenium-test_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.addressbook.*" />
+          <option name="PATTERN" value="com.telran.addressbook.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -615,7 +638,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.GroupModificationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.GroupModificationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -721,7 +744,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="62" width="1400" height="929" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -730,14 +753,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50142854" side_tool="true" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5011905" side_tool="true" visible="true" weight="0.28256512" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880952" visible="true" weight="0.28256512" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23690476" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -764,11 +787,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -778,52 +801,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteGroupTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteContactsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteContactsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="20" lean-forward="true" selection-start-line="9" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteContactsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/DeleteGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -834,30 +843,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/CreateGroupTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/model/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteContactsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/DeleteGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupModificationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
@@ -888,24 +921,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/GroupData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/GroupModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/CreateContactsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/CreateContactsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/tests/CreateGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
