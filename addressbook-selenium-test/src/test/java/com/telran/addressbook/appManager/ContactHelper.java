@@ -54,6 +54,9 @@ public class ContactHelper {
         TimeUnit.SECONDS.sleep(5);
 
     }
+    public int getContactCount() {
+        return driver.findElements(By.name("selected[]")).size();
+    }
 
     public void deleteAllContacts() {
         driver.findElement(By.id("MassCB")).click();
