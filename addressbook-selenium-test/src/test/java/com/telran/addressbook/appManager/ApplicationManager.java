@@ -1,6 +1,5 @@
 package com.telran.addressbook.appManager;
 
-import com.telran.addressbook.model.GroupData;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,37 +8,16 @@ import java.util.concurrent.TimeUnit;
 import static junit.framework.TestCase.assertTrue;
 
 public class ApplicationManager {
-    protected WebDriver driver;
+    private  GroupHelper groupHelper;
     private boolean acceptNextAlert = true;
+    protected WebDriver driver;
 
     public void init() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        groupHelper = new GroupHelper(driver);
         openAddressbook();
         login();
-    }
-
-    public void returnToGroupsPage() {
-      driver.findElement(By.linkText("group page")).click();
-    }
-
-    public void submitGroupCreation() {
-      driver.findElement(By.name("submit")).click();
-    }
-
-    public void fillGroupForm(GroupData groupData) {
-      driver.findElement(By.name("group_name")).click();
-      driver.findElement(By.name("group_name")).clear();
-      driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
-      driver.findElement(By.name("group_header")).clear();
-      driver.findElement(By.name("group_header")).sendKeys(groupData.getHeader());
-      driver.findElement(By.name("group_footer")).click();
-      driver.findElement(By.name("group_footer")).clear();
-      driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
-    }
-
-    public void initGroupCreation() {
-      driver.findElement(By.name("new")).click();
     }
 
     public void goToGroupsPage() {
@@ -79,14 +57,6 @@ public class ApplicationManager {
       } catch (NoAlertPresentException e) {
         return false;
       }
-    }
-
-    public void selectGroup() {
-        driver.findElement(By.name("selected[]")).click();
-    }
-
-    public void deleteGroup() {
-        driver.findElement(By.name("delete")).click();
     }
 
     public void addContact(String firstName, String surName, String country, String phoneNumber, String workPhoneNumber, String email){
@@ -147,15 +117,7 @@ public class ApplicationManager {
         }
     }
 
-    public void initGroupModification(){
-        driver.findElement(By.name("edit")).click();
-    }
-
-    public void confirmGroupModification() {
-        driver.findElement(By.name("update")).click();
-    }
-
-    public int getGroupCount() {
-        return driver.findElements(By.name("selected[]")).size();
+    public GroupHelper getGroupHelper() {
+        return groupHelper;
     }
 }
