@@ -1,22 +1,19 @@
+package com.telran.addressbook;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class TestBase {
-    private WebDriver driver;
+public class ApplicationManager {
+    protected WebDriver driver;
     private boolean acceptNextAlert = true;
 
-    @BeforeClass(alwaysRun = true)
-    public void setUp() throws Exception {
-      driver = new ChromeDriver();
-      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-      openAddressbook();
-      login();
+    protected void init() {
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     public void returnToGroupsPage() {
@@ -27,15 +24,15 @@ public class TestBase {
       driver.findElement(By.name("submit")).click();
     }
 
-    public void fillGroupForm(String name, String header, String footer) {
+    public void fillGroupForm(GroupData groupData) {
       driver.findElement(By.name("group_name")).click();
       driver.findElement(By.name("group_name")).clear();
-      driver.findElement(By.name("group_name")).sendKeys(name);
+      driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
       driver.findElement(By.name("group_header")).clear();
-      driver.findElement(By.name("group_header")).sendKeys(header);
+      driver.findElement(By.name("group_header")).sendKeys(groupData.getHeader());
       driver.findElement(By.name("group_footer")).click();
       driver.findElement(By.name("group_footer")).clear();
-      driver.findElement(By.name("group_footer")).sendKeys(footer);
+      driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
     }
 
     public void initGroupCreation() {
@@ -59,10 +56,8 @@ public class TestBase {
       driver.get("http://localhost/addressbook/");
     }
 
-    @AfterClass(alwaysRun = true)
-    public void tearDown() throws Exception {
-      driver.quit();
-
+    protected void stop() {
+        driver.quit();
     }
 
     private boolean isElementPresent(By by) {
@@ -82,9 +77,11 @@ public class TestBase {
         return false;
       }
     }
+
     public void selectGroup() {
         driver.findElement(By.name("selected[]")).click();
     }
+
     public void deleteGroup() {
         driver.findElement(By.name("delete")).click();
     }
@@ -111,9 +108,11 @@ public class TestBase {
         driver.findElement(By.name("email")).sendKeys(email);
         driver.findElement(By.xpath("(//input[@name='submit'])[2]")).click();
     }
+
     public void selectContact(){
         driver.findElement(By.name("selected[]")).click();
     }
+
     public void deleteContact() throws InterruptedException {
         driver.findElement(By.xpath("//input[@value='Delete']")).click();
         acceptNextAlert = true;
@@ -130,7 +129,6 @@ public class TestBase {
 
     }
 
-
     private String closeAlertAndGetItsText() {
         try {
             Alert alert = driver.switchTo().alert();
@@ -146,4 +144,15 @@ public class TestBase {
         }
     }
 
+    public void initGroupModification(){
+        driver.findElement(By.name("edit")).click();
+    }
+
+    public void confirmGroupModification() {
+        driver.findElement(By.name("update")).click();
+    }
+
+    public int getGroupCount() {
+        return driver.findElements(By.name("selected[]")).size();
+    }
 }
