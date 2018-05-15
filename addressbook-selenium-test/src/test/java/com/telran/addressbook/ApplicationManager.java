@@ -14,6 +14,8 @@ public class ApplicationManager {
     protected void init() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        openAddressbook();
+        login();
     }
 
     public void returnToGroupsPage() {
