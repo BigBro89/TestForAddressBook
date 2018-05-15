@@ -8,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 import static junit.framework.TestCase.assertTrue;
 
 public class ApplicationManager {
+
+    private NavigationHelper navigationHelper;
     private  GroupHelper groupHelper;
     private boolean acceptNextAlert = true;
     protected WebDriver driver;
@@ -16,12 +18,9 @@ public class ApplicationManager {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(driver);
+        navigationHelper = new NavigationHelper(driver);
         openAddressbook();
         login();
-    }
-
-    public void goToGroupsPage() {
-      driver.findElement(By.linkText("groups")).click();
     }
 
     public void login() {
@@ -119,5 +118,9 @@ public class ApplicationManager {
 
     public GroupHelper getGroupHelper() {
         return groupHelper;
+    }
+
+    public NavigationHelper getNavigationHelper() {
+        return navigationHelper;
     }
 }
