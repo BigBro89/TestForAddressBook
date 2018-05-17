@@ -80,4 +80,7 @@ public class ContactHelper {
             acceptNextAlert = true;
         }
     }
+    public void initContactModification(){
+       // driver.findElement(By.xpath("//*[@id="maintable"]/tbody/tr[2]/td[8]/a"))
+    }
 }
